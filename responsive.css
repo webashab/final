@@ -1,0 +1,105 @@
+@media(max-width: 971px){
+    .our-menu{
+        display: none;
+    }
+    .bar-menu{
+        display: block;
+    }
+    .stats-circle{
+        flex-flow: wrap;
+        
+    }
+    .circle-stats{
+        margin-bottom: 10px;
+    }
+    .taste-content{
+        width: 100%;
+    }
+    .taste-content h3{
+        font-size: 50px;
+    }
+    .taste-content p{
+        font-size: 15px;
+    }
+    .taste-content button{
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        
+    }
+    .footer-icon{
+        margin-bottom: 20px;
+    }
+    .our-header{
+        
+    }
+
+    .our-menu{
+        
+        
+    }
+    .our-menu ul{
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        width: 100%;
+        padding: 40px 0;
+    }
+    .our-menu-icon{
+        display: none;
+    }
+    .our-menu ul li a{
+        padding-right: 10px;
+        padding-left: 10px;
+       
+        
+    }
+}
+
+
+@media (max-width: 575px){
+    .banner-content{}
+    .banner-content h1{
+        font-size: 90px;
+    }
+    .banner-content p{
+        font-size: 15px;
+    }
+    .banner-content button{
+        width: 100px;
+        height: 30px;
+    }
+    .stats-circle{
+        flex-flow: wrap;
+    }
+    .circle-stats{
+        width: 100px;
+        height: 100px;
+    }
+    .text-stats h6{
+        font-size: 20px;
+    }
+    .text-stats p{
+        font-size: 10px;
+    }
+    .stats-content h3{
+        font-size: 80px;
+    }
+    .text-content p{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .sub-sub input{
+        width: 300px;
+    }
+    .footer-icon ul li a i{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .our-menu ul{
+        display: block;
+    }
+}

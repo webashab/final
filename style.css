@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Grand Hotel', cursive;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* header css */
+.our-header{
+    background: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    z-index: 1;
+    width: 100%;
+}
+.our-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-logo{}
+.our-logo img{
+    width: 80%;
+}
+.our-menu{
+    width: 50%;
+}
+.our-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.our-menu ul li{}
+.our-menu ul li a{
+    color: #bababa;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: .2s;
+}
+.our-menu-icon{
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bar-menu{
+    display: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.our-menu ul li a:hover{
+    color: #ffffff;
+}
+a.button {
+    display: inline-block;
+    padding: 0 2px;
+    background: lightgray;
+    border: 2px outset lightgray;
+    cursor: default;
+}
+a.button:active {
+    border-style: inset;
+}
+table {
+    width: 100%;
+    }
+    td {
+      border: 1px solid #777;
+      padding: 10px;
+    }
+    td:first-child {
+      width: 30%;
+    }
+/* banner */
+.banner{
+    background: url(images/header-img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.banner-content{
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 46%;
+}
+.banner-content h1{
+    font-size: 125px;
+    color: #ffc200;
+
+}
+.banner-content p{
+    font-size: 30px;
+    color: #ffffff;
+}
+.banner-content button{
+    width: 245px;
+    height: 50px;
+    background-color: #ffc200;
+    border: 0;
+    border-radius: 2px;
+    font-size: 19px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .2s;
+}
+.banner-content button:hover{
+    background-color: #ffffff;
+}
+
+
+/* seller area */
+.seller-area{
+    margin: 140px auto 80px;
+    text-align: center;
+}
+.seller-content h2{
+    font-size: 75px;
+    color: #333333;
+}
+.seller-content p{
+    font-size: 25px;
+    color: #333333;
+    width: 48%;
+    margin: 0 auto;
+}
+
+/* food area */
+.row{
+    justify-content: space-between;
+    align-items: center;
+}
+.food-area{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    z-index: 1;
+}
+.food-content{}
+.food-content img{
+    margin: 0 auto;
+}
+.food-content h4{
+    font-size: 42px;
+}
+.food-content p{}
+
+
+/* taste area */
+.taste-area{
+    margin-top: 240px;
+    background: url(images/middle-upper.png);
+    background-size: cover;
+    background-position: top;
+    z-index: 2;
+
+}
+.taste-img{
+    padding-bottom: 80px;
+}
+.taste-content{}
+.taste-content h3{
+    font-size: 100px;
+    color: #ffc200;
+}
+.taste-content p{
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.taste-content button{
+    width: 320px;
+    height: 60px;
+    background-color: #ffc200;
+    border: 0;
+    border-radius: 2px;
+    font-size: 19px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .2s;
+}
+.taste-content button:hover{
+    background-color: #ffffff;
+}
+.our-row{
+    padding: 120px 0 0; 
+}
+
+
+
+/* stats area */
+
+
+.stats-area{
+    background: url(images/middle-1.png);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+}
+.stats-content{
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.stats-content h3{
+    font-size: 100px;
+    color: #ffc200;
+}
+.stats-content p{
+    font-size: 25px;
+    color: #ffffff;
+}
+.stats-circle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.circle-stats{
+    border: 3px solid #ffffff;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    transition: .3s;
+}
+.text-stats{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-stats h6{
+    font-size: 51px;
+    color: #ffc200;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: .3s;
+}
+.text-stats p{
+    font-size: 29px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .3s;
+}
+.circle-stats:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.circle-stats:hover .text-stats h6{
+    color: #303030;
+}
+.circle-stats:hover .text-stats p{
+    color: #ffc200;
+}
+
+
+/* grill area */
+.grill-area{
+    background: url(images/middle-bottom.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 80vh;
+}
+.mui-row{
+    padding-top: 115px;
+}
+
+
+/* fields area */
+.fields-area{
+    background: url(images/food-last.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: 120px;
+    position: relative;
+}
+.fields-content{
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fields-content p{
+    font-size: 45px;
+    color: #333333;
+}
+.fields-content h4{
+    font-size: 74px;
+    color: #333333;
+}
+
+
+/* sub area */
+
+.sub-area{
+    background: url(images/footer-img.png);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+}
+.sub-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-content{
+    text-align: center;
+}
+.text-content h3{
+    font-size: 100px;
+    color: #333333;
+    
+}
+.text-content p{
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+.sub-sub{
+    text-align: center;
+}
+.sub-sub input{
+    border: none;
+    width: 550px;
+    height: 65px;
+    text-align: start;
+    border-radius: 2px;
+}
+.sub-sub input::placeholder{
+    padding-left: 20px;
+    opacity: .6;
+    color: #333333;
+    
+}
+.sub-sub button{
+    width: 220px;
+    height: 65px;
+    border: none;
+    background-color: #ffc200;
+    color: #333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: .3s;
+}
+.sub-sub button:hover{
+    background-color: #000000;
+    color: #ffc200;
+}
+
+
+/* footer area */
+.our-footer{
+    background-color: #303030;
+    padding-top: 255px;
+    padding-bottom: 300px;
+}
+.containe{
+    padding-left: 200px;
+    padding-right: 50px;
+}
+.elo{
+    justify-content: space-between;
+}
+.footer-content{
+    width: 80%;
+}
+.footer-content h6{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.footer-content p{
+    font-size: 24px;
+    color: #e3e3e3;
+}
+.footer-icon{
+    width: 35%;
+}
+.footer-icon ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon ul li{}
+.footer-icon ul li a{}
+.footer-icon ul li a i{
+    background-color: #ffffff;
+    font-size: 30px;
+    color: #303030;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+.footer-icon ul li a i:hover{
+    background-color: #303030;
+    color: #ffffff;
+}
+.footer-2nd{
+    margin-bottom: 30px;
+}
+.footer-2nd h6{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.footer-2nd ul{}
+.footer-2nd ul li{}
+.footer-2nd ul li a{
+    font-size: 24px;
+    color: #e3e3e3;
+}
+.mui-mui{
+    margin-bottom: 100px;
+}
+.footer-2nd ul li a:hover{
+    color: #8f8f8f;
+}
